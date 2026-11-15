@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Bash(cat .env*)",
+      "Bash(type .env*)",
+      "Bash(more .env*)",
+      "Bash(Get-Content .env*)",
+      "Bash(docker compose config*)"
+    ]
+  }
+}
